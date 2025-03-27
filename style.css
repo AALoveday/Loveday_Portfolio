@@ -30,7 +30,7 @@ body, html {
 
 /* Hero Section */
 .hero-image {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("C:\Users\aamos\OneDrive\Desktop\VS Code Academy\Portfolio Project\Loveday_Portfolio\Hero Image.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Hero/ Image.jpg Image.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,4 +44,25 @@ body, html {
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
+}
+
+/* Main Content */
+body {
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 300;
+}
+
+.about-section {
+    padding: 30px 30px;
+    line-height: 25px;
+    margin-bottom: 70px;
+    
+}
+.aboutImage {
+    height: 20rem;
+    float: right;
+    border-radius: 50%;
+    outline: .5rem solid;
+    outline-color: plum;
 }
