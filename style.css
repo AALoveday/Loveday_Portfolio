@@ -53,10 +53,13 @@ body {
     font: 300;
 }
 
+/* about section */
 .about-section {
     padding: 30px 30px;
     line-height: 25px;
     margin-bottom: 70px;
+    margin-top: 30px;
+    
     
 }
 .aboutImage {
@@ -65,4 +68,8 @@ body {
     border-radius: 50%;
     outline: .5rem solid;
     outline-color: plum;
+}
+/* Work Experience Section */
+.work-experience-section {
+    padding: 30px 30px;
 }
