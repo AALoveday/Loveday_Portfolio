@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+ <html lang="eng">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Addison Young's Portfolio</title>
+    <link rel="stylesheet" href="../Loveday_Portfolio/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>body {
+        /* Center the form on the page */
+        text-align: center;
+      }
+      
+      form {
+        display: inline-block;
+        /* Form outline */
+        padding: 50px 30px;
+        border: 1px solid #5add5a;
+        border-radius: 1em;
+        margin: 80px 80px;
+      }
+      
+      p + p {
+        margin-top: 1em;
+      }
+      
+      label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        min-width: 90px;
+        text-align: center;
+      }
+      
+      input,
+      textarea {
+        /* To make sure that all text fields have the same font settings
+           By default, text areas have a monospace font */
+        font: 1em sans-serif;
+        /* Uniform text field size */
+        width: 300px;
+        box-sizing: border-box;
+        /* Match form field borders */
+        border: 1px solid #999;
+        
+      }
+      
+      input:focus,
+      textarea:focus {
+        /* Set the outline width and style */
+        outline-style: solid;
+        /* To give a little highlight on active elements */
+        outline-color: #000;
+      }
+      
+      textarea {
+        /* Align multiline text fields with their labels */
+        vertical-align: top;
+        /* Provide space to type some text */
+        height: 10em;
+      }
+      
+      .button {
+        /* Align buttons with the text fields */
+        padding-left: 90px; /* same size as the label elements */
+      }
+      
+      button {
+        /* This extra margin represent roughly the same space as the space
+           between the labels and their text fields */
+        margin-left: 0.5em;
+        background-color: aliceblue;
+      }</style>
+   </head>
+   <body>
+   <header>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="topnav">
+      <div class="navbar-fixed">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">Loveday</a>
+        <button
+          data-mdb-collapse-init
+          class="navbar-toggler"
+          type="button"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../Loveday_Portfolio/index.html">Home</a>
+            </li>
+            
+          </ul>
+        </div>
+       </div>
+      </div>
+    </nav>
+    <!--End Nav Bar-->
+   </header>
+  <div id="form">
+   <form action="/my-handling-form-page" method="post">
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </p>
+      <p>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+      </p>
+      <p>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </p>
+      <p class="button">
+        <button type="submit">Send your message</button>
+      </p>
+    </form>
+   </div>
+
+    <!--Footer--> 
+   <div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">Company Name © 2018</p>
+        </div>
+    </footer>
+</div>
+ <script src="index.js"></script>
+</body>
+</html>
